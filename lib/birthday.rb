@@ -6,6 +6,13 @@
 
 def happy_birthday(birthday_kids)
   birthday_kids.each do |key, value|
+    puts "Happy Birthday #{key}! You are now #{value} years old!"
+  end
+end
+
+
+def age_appropriate_birthday(birthday_kids)
+  birthday_kids.each do |key, value|
     puts "Happy Birthday #{key}! You are now #{value} years old!" if value <= 12
   end
 end
