@@ -11,4 +11,5 @@ def select_winner(passengers)
     if suite == :suite_a && name.char == "a"
       return name
     end
+  end
 end
